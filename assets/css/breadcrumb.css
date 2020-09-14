@@ -1,0 +1,21 @@
+.custom-breadcrumb{
+    /* height: 200px; */
+}
+.custom_breadcrumb_nav .breadcrumb{
+    background: none;
+    font-size: 0.800rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.custom_breadcrumb_nav .breadcrumb a{
+    color: #fff !important;
+}
+.custom_heading{
+    color: #fff;
+}
+.btn-white-translucent {
+    color: #fff;
+    background-color: rgba(255,255,255,.15);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
+    margin-right: 10px;
+}

@@ -1,0 +1,51 @@
+
+.horizontal_box {
+    overflow-y: visible;
+    overflow-x: auto;
+    white-space: nowrap;
+    vertical-align: text-top;
+    padding: 0;
+    width: 100%;
+    clear: both;
+    word-wrap: break-word;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+    border-spacing: 5px;
+    margin: 0px 0 15px 0px;
+}
+.horizonal_box_area{
+    width: 120px;
+    word-wrap: break-word;
+}
+.image_box{
+    width: 120px;
+    float: left;
+    padding: 10px 5px;
+}
+.image_box span{
+    width: 100%;
+    float: left;
+    white-space: normal;
+    text-align: center;
+}
+.image_box i{
+    display: block;
+    height: 68px;
+    width: 68px;
+    text-align: center;
+    margin: 0 auto;
+    background: #f5f6f7;
+    border: 2px solid #e5e5e5;
+    line-height: 65px;
+    font-size: 30px !important;
+    color: #606060 !important;
+    border-radius: 50%;
+}
+.image_box:hover i{
+    background: #12263f;
+    border: 2px solid #12263f;
+    color: #fff !important;
+}
+.intro-section {
+    display: table-cell;
+}

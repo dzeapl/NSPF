@@ -1,0 +1,208 @@
+.table,
+.scroll_table {
+    font-size: .7875rem;
+}
+
+table.dataTable {
+    border-left: none;
+    border-right: none;
+    border-top: none !important;
+    border-bottom: 1px solid #edf2f9 !important;
+}
+
+div.dataTables_wrapper {
+    width: 100% !important;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: none !important;
+}
+
+
+/* .dataTables_scrollBody thead th, .dataTables_scrollBody td{
+    padding: 0px !important;
+    border-bottom: none !important;
+} */
+
+.table tfoot th,
+.table thead th,
+.scroll_table thead th {
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #95aac9;
+    border-bottom-width: 1px;
+    background-color: #f9fbfd;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border-bottom: none !important;
+}
+
+.scroll_table td,
+.dataTables_scrollHeadInner th {
+    border-top: 1px solid #edf2f9 !important;
+    padding: .9375rem !important;
+}
+
+.table td,
+.dataTables_scrollHeadInner th {
+    border-top: 1px solid #edf2f9 !important;
+    padding: .9375rem !important;
+}
+
+.scroll_table td,
+.scroll_table th {
+    vertical-align: middle !important;
+    border-top: 1px solid #edf2f9 !important;
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+    border-top: 1px solid #edf2f9 !important;
+}
+
+
+/* .table td, .table th {
+    padding: .9375rem !important;
+    vertical-align: middle !important;
+    border-top: 1px solid #edf2f9 !important;
+} */
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    padding: 0 8px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-size: .7875rem;
+    font-weight: bold;
+}
+
+div.dataTables_paginate .pagination {
+    margin-right: 15px !important;
+}
+
+div.dataTables_paginate .pagination li a {
+    font-size: .7875rem;
+}
+
+.page-item.active .page-link {
+    color: #fff !important;
+}
+
+.dataTables_length {
+    margin-left: 15px;
+    font-size: .7875rem;
+}
+
+.dataTables_info {
+    margin-left: 15px;
+    font-size: .7875rem;
+}
+
+.table-icon {
+    color: #4c66fb;
+    margin-right: 20px;
+}
+
+.table-icon.delete {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* .table-icon:last-child{
+    margin-right: 0px;
+} */
+
+.dtr-details {
+    width: 100%;
+    float: left;
+}
+
+.dataTables_paginate.paging_simple_numbers {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 8px 15px 0 15px;
+    font-size: .900rem;
+    padding: 0px !important;
+    border-radius: 3px;
+}
+
+.paginate_button {
+    border-right: 1px solid #ddd !important;
+}
+
+.paginate_button.next {
+    border-right: none !important;
+}
+
+.paginate_button.current {
+    border: none !important;
+    background: #4c66fb !important;
+    margin: 0px;
+    color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+}
+
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+    background: none !important;
+}
+
+table.dataTable.display tbody tr.odd>.sorting_1,
+table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background: none !important;
+}
+
+table.dataTable.display tbody tr.even>.sorting_1,
+table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background: none !important;
+}
+
+div.dt-buttons {
+    padding-left: 10px;
+}
+
+.dt-button.btn-primary {
+    color: #fff !important;
+    background: #007bff !important;
+    border-color: #007bff !important;
+    border-radius: 3px !important;
+}
+
+.middle_datatable table.dataTable {
+    border-left: 1px solid #edf2f9 !important;
+    border-right: 1px solid #edf2f9 !important;
+    border-top: none !important;
+    border-bottom: 1px solid #edf2f9 !important;
+}
+
+.middle_datatable div.dataTables_wrapper div.dataTables_filter input {
+    margin-right: 0px;
+}
+
+.middle_datatable .dataTables_paginate.paging_simple_numbers {
+    margin-right: 0px;
+}
+
+.middle_datatable .dataTables_info {
+    margin-left: 0px;
+}
+
+.middle_datatable div.dt-buttons {
+    padding-left: 0px;
+}
+
+.max-height-table {
+    max-height: 200px;
+}

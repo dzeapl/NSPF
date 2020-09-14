@@ -1,0 +1,57 @@
+.login-bg{
+    background-image: url(../images/bg1.svg);
+}
+
+.admin-main.bg-pattern{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.bg-pattern {
+    background-image: url(../images/login_bg.svg);
+    background-position: center;
+    background-size: cover;
+}
+.avatar-lg {
+    width: 6rem;
+    height: 6rem;
+}
+.avatar {
+    position: relative;
+    display: inline-block;
+}
+.form-group label, .form-group input{
+    font-size: .9rem;
+}
+.avatar-title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: .9rem !important;
+    font-weight: 500  !important;
+    line-height: 1.5 !important;
+}
+.avatar-lg .avatar-title {
+    font-size: 24px;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.pull-up-sm {
+    margin-top: -50px;
+}
+.p-b-20 {
+    padding-bottom: 20px;
+}
+.avatar-title img{
+    width: 100%;
+}
